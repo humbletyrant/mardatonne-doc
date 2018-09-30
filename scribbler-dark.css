@@ -9,7 +9,7 @@
   --light-gray-color: #C6CBD1;
   --medium-gray-color: #959DA5;
   --dark-gray-color: #444D56; 
-  --bg-color: #444444;
+  --bg-color: #222222;
   --code-bg-color: #F0E8E8;
 }
 
@@ -18,7 +18,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #444444;
+  background-color: #222222;
 }
 
 p {
