@@ -1,0 +1,585 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mardatonne | Documentation</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="scribbler-global.css">
+    <link rel="stylesheet" href="scribbler-doc.css">
+    <link rel="author" href="NeotiDev">
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo">NeotiDev <span class="logo__thin">Doc</span></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://github.com/NeotiDev" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="https://discord.gg/NqMA6xC" class="link link--dark"><i class="fab fa-discord"></i> Discord</a></li>
+        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        <ul>
+          <li class="js-btn selected">Commands List</li>
+          <li class="js-btn">Reporting Bugs</li>
+        </ul>
+      </aside>
+      <article class="doc__content">
+        <section class="js-section">
+          <h3 class="section__title">Commands List</h3>
+          <p><b>Arguements inside [ and ] are required.</br>
+          Arguements inside ( and ) are optional.</b></p>
+          <p><i class="fa fa-music"></i> Music Commands:</p>
+          <table id="music">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>play</td>
+              <td>Adds a music to queue from YouTube.</td>
+              <td>+play [link or words]</td>
+            </tr>
+            <tr>
+              <td>stop</td>
+              <td>Stops the whole music and clears the queue..</td>
+              <td>+stop</td>
+            </tr>
+            <tr>
+              <td>pause</td>
+              <td>Pauses the music until you play it again.</td>
+              <td>+pause</td>
+            </tr>
+                        <tr>
+              <td>resume</td>
+              <td>Resumes the paused music.</td>
+              <td>+resume</td>
+            </tr>
+                        <tr>
+              <td>np</td>
+              <td>Shows the information about now playing music.</td>
+              <td>+np</td>
+            </tr>
+                        <tr>
+              <td>skip</td>
+              <td>Skips the song.</td>
+              <td>+skip</td>
+            </tr>
+                        <tr>
+              <td>queue</td>
+              <td>Shows the queue.</td>
+              <td>+queue</td>
+            </tr>
+                        <tr>
+              <td>volume</td>
+              <td>Allows you to set volume.</td>
+              <td>+volume [1 - 5]</td>
+            </tr>
+          </table>
+          
+                    <p><i class="fa fa-volume-up"></i> Soundboard Commands:</p>
+          <table id="soundboard">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>sbplay</td>
+              <td>Plays an effect from the sounds list.</td>
+              <td>+sbplay [effect name]</td>
+            </tr>
+            <tr>
+              <td>sblist</td>
+              <td>Lists the effects..</td>
+              <td>+sblist</td>
+            </tr>
+            <tr>
+              <td>sbstop</td>
+              <td>Stops the effect..</td>
+              <td>+sbstop</td>
+            </tr>
+            </table>
+          
+        <p><i class="fa fa-user-friends"></i> Fun Commands:</p>
+          <table id="fun">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>8ball</td>
+              <td>Magic 8 ball.. Now in Discord! Ask your question and get your answer.</td>
+              <td>+8ball [question]</td>
+            </tr>
+            <tr>
+              <td>insult</td>
+              <td>Get insulted by the bot <i class="fa fa-smile-wink"></i></td>
+              <td>+insult</td>
+            </tr>
+            <tr>
+              <td>karen</td>
+              <td>Get a Karen version of someone's photo.</td>
+              <td>+karen (mention)</td>
+            </tr>
+                        <tr>
+              <td>changemymind</td>
+              <td>Generate a photo with the provided text.</td>
+              <td>+changemymind [text]</td>
+            </tr>
+                        <tr>
+              <td>hates</td>
+              <td>Get a hates version of someones photo.</td>
+              <td>+hates (mention)</td>
+            </tr>
+                        <tr>
+              <td>beautiful</td>
+              <td>Owh.. This.. is.. BEAUTIFUL!</td>
+              <td>+beautiful (mention)</td>
+            </tr>
+                        <tr>
+              <td>challenger</td>
+              <td>A new challenger has aarrived!.</td>
+              <td>+challenger (mention)</td>
+            </tr>
+                        <tr>
+              <td>triggered</td>
+              <td>Get a triggered gif version of someone's photo.</td>
+              <td>+triggered (mention)</td>
+            </tr>
+                        <tr>
+              <td>stepped</td>
+              <td>Oh.. I stepped on somebody.</td>
+              <td>+stepped (mention)</td>
+            </tr>
+                        <tr>
+              <td>steam</td>
+              <td>Get a Steam version of someones photo.</td>
+              <td>+steam (mention)</td>
+            </tr>
+                        <tr>
+              <td>sniper</td>
+              <td>Get a Sniper version of someones photo.</td>
+              <td>+sniper (mention)</td>
+            </tr>
+                        <tr>
+              <td>respect</td>
+              <td>Get a Respect version of someones photo.</td>
+              <td>+respect (mention)</td>
+            </tr>
+                        <tr>
+              <td>religion</td>
+              <td>I'm interested..</td>
+              <td>+religion (mention)</td>
+            </tr>
+                        <tr>
+              <td>wanted</td>
+              <td>Get a Wanted version of someones photo.</td>
+              <td>+wanted (mention)</td>
+            </tr>
+                        <tr>
+              <td>garbage</td>
+              <td>Throw somebody to garbage.</td>
+              <td>+garbage (mention)</td>
+            </tr>
+                        <tr>
+              <td>facepalm</td>
+              <td>Generate facepalm icon with your profile picture.</td>
+              <td>+facepalm</td>
+            </tr>
+                        <tr>
+              <td>fidgetspinner</td>
+              <td>Spin a fidget spinner and race with your friends!</td>
+              <td>+fidgetspinner</td>
+            </tr>
+                        <tr>
+              <td>nitro</td>
+              <td>A fake Discord Nitro message to prank your friends like you have Discord Nitro.</td>
+              <td>+nitro</td>
+            </tr>
+                        <tr>
+              <td>belikebill</td>
+              <td>Bill is great. Be like Bill.</td>
+              <td>+belikebill</td>
+            </tr>
+                        <tr>
+              <td>tableflip</td>
+              <td>(╯°□°)╯  ︵  ┻━┻</td>
+              <td>+tableflip</td>
+            </tr>
+                        <tr>
+              <td>lenny</td>
+              <td>Post a lenny and copy it.</td>
+              <td>+lenny</td>
+            </tr>
+                                    <tr>
+              <td>howgay</td>
+              <td>This magical tool will give you a percentage of possibility that you're a gay.</td>
+              <td>+howgay</td>
+            </tr>
+                                    <tr>
+              <td>flipcoin</td>
+              <td><i class="fa fa-coins"></i> Heads and Tails!</td>
+              <td>+flipcoin</td>
+            </tr>
+                                    <tr>
+              <td>love</td>
+              <td><i class="fa fa-heart"></i> This magical tool will give you a percentage of possibility that you love a person.</td>
+              <td>+love [mention]</td>
+            </tr>
+                                    <tr>
+              <td>shoot</td>
+              <td><i class="fa fa-fire"></i> Shoot at someone!</td>
+              <td>+lenny</td>
+            </tr>
+                                                <tr>
+              <td>future</td>
+              <td><i class="fa fa-magic"></i> Get information about your future!</td>
+              <td>+lenny</td>
+            </tr>
+            </table>
+          
+                  <p><i class="fa fa-gamepad"></i> Game Commands:</p>
+          <table id="games">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>csgo</td>
+              <td>Get information of a CS:GO player with in-game stats.</td>
+              <td>+csgo [SteamID64/Custom URL]</td>
+            </tr>
+            <tr>
+              <td>osu</td>
+              <td>Get information of an osu! player with in-game stats.</td>
+              <td>+osu [username]</td>
+            </tr>
+            <tr>
+              <td>mc-old-names</td>
+              <td>Get the old names of a Minecraft account.</td>
+              <td>+mc-old-names [account name]</td>
+            </tr>
+            <tr>
+              <td>mc-uuid</td>
+              <td>Get the UUID of a Minecraft account.</td>
+              <td>+mc-uuid [account name]</td>
+            </tr>
+            <tr>
+              <td>mc-server</td>
+              <td>Get the info of a Minecraft server.</td>
+              <td>+mc-server [server ip]</td>
+            </tr>
+            <tr>
+              <td>mc-head</td>
+              <td>Get the head avatar of a Minecraft player.</td>
+              <td>+mc-head [account name]</td>
+            </tr>
+            <td>achievement</td>
+              <td>Generate a Minecraft achievement.</td>
+              <td>+achievement [text]</td>
+            </tr>
+            </table>
+          
+                            <p><i class="fa fa-money-bill-wave"></i> Currency Commands:</p>
+          <table id="currency">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>slots</td>
+              <td>Win or loose the bet.</td>
+              <td>+slots [amount]</td>
+            </tr>
+            <tr>
+              <td>work</td>
+              <td>Work to get some money in good ways.</td>
+              <td>+work</td>
+            </tr>
+            <tr>
+              <td>points</td>
+              <td>Get the amount of your points.</td>
+              <td>+points</td>
+            </tr>
+            <tr>
+              <td>leaderboard</td>
+              <td>Get the server leaderboard.</td>
+              <td>+leaderboard</td>
+            </tr>
+            </table>
+          
+                                      <p><i class="fa fa-ban"></i> Moderation Commands:</p>
+          <table id="moderation">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>kick</td>
+              <td>Kick someone from the server.</td>
+              <td>+kick [mention] (reason)</td>
+            </tr>
+            <tr>
+              <td>ban</td>
+              <td>Ban someone from the server.</td>
+              <td>+ban [mention] (reason)</td>
+            </tr>
+            <tr>
+              <td>purge</td>
+              <td>Clean messages from the channel.</td>
+              <td>+purge [2-100]</td>
+            </tr>
+            </table>
+          
+                                                <p><i class="fa fa-toolbox"></i> Tool Commands:</p>
+          <table id="tools">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>help</td>
+              <td>Displays help message.</td>
+              <td>+help</td>
+            </tr>
+            <tr>
+              <td>reddit</td>
+              <td>Get stats of a <i class="fab fa-reddit"></i> subreddit.</td>
+              <td>+reddit [subreddit]</td>
+            </tr>
+            <tr>
+              <td>discrim</td>
+              <td>List people from a discriminator.</td>
+              <td>+discrim (number)</td>
+            </tr>
+                          <td>randominfo</td>
+              <td>Generate random info of a person.</td>
+              <td>+randominfo</td>
+            </tr>
+                          <td>sentiment</td>
+              <td>Check if a sentence is positive or negative.</td>
+              <td>+sentiment [sentence]</td>
+            </tr>
+                          <td>randomuser</td>
+              <td>Choose a random user from the server.</td>
+              <td>+randomuser</td>
+            </tr>
+                          <td>emoji</td>
+              <td>Emojify your text.</td>
+              <td>+emoji [text]</td>
+            </tr>
+                          <td>membercount</td>
+              <td>Member count of the server.</td>
+              <td>+membercount</td>
+            </tr>
+                          <td>adorable</td>
+              <td>Get an adorable avatar for the identifier.</td>
+              <td>+adorable [name]</td>
+            </tr>
+                          <td>8bit</td>
+              <td>Get an 8-bit avatar for the identifier.</td>
+              <td>+8bit [name]</td>
+            </tr>
+                          <td>kickable</td>
+              <td>Check if the bot can kick someone.</td>
+              <td>+kickable [mention]</td>
+            </tr>
+                          <td>bannable</td>
+              <td>Check if the bot can ban someone.</td>
+              <td>+bannable [mention]</td>
+            </tr>
+                          <td>dynoavatar</td>
+              <td>Get your avatar in Dyno style.</td>
+              <td>+dynoavatar</td>
+            </tr>
+                                      <td>dbl</td>
+              <td>Get a bot's info from discordbots.org.</td>
+              <td>+dbl [bot mention]</td>
+            </tr>
+                                                  <td>say</td>
+              <td>Make the bot say something.</td>
+              <td>+say [text]</td>
+            </tr>
+                                                  <td>poll</td>
+              <td>Make a poll.</td>
+              <td>+poll [question]</td>
+            </tr>
+                                                  <td>aww</td>
+              <td>Random aww photos.</td>
+              <td>+aww</td>
+            </tr>
+                                                  <td>dog</td>
+              <td>Random dog photos.</td>
+              <td>+dog</td>
+            </tr>
+                                                  <td>cat</td>
+              <td>Random cat photos.</td>
+              <td>+cat</td>
+            </tr>
+                                                              <td>scottishfold</td>
+              <td>Random Scottish Fold photos.</td>
+              <td>+scottishfold</td>
+            </tr>
+                                                              <td>pug</td>
+              <td>Random pug photos.</td>
+              <td>+pug</td>
+            </tr>
+                                                              <td>baby</td>
+              <td>Random baby photos.</td>
+              <td>+baby</td>
+            </tr>
+                                                              <td>avatar</td>
+              <td>Get your avatar.</td>
+              <td>+avatar</td>
+            </tr>
+                                                              <td>cutegirl</td>
+              <td>Get a cute anime girl.</td>
+              <td>+cutegirl</td>
+            </tr>
+                                                              <td>password</td>
+              <td>Random password generator.</td>
+              <td>+password</td>
+            </tr>
+                                                              <td>guildicon</td>
+              <td>Did you like the server's icon? Download it!.</td>
+              <td>+guildicon</td>
+            </tr>
+                                                              <td>randomanime</td>
+              <td>Random Anime photos/gifs.</td>
+              <td>+randomanime</td>
+            </tr>
+                                                              <td>gif</td>
+              <td>Make a search on GIPHY.</td>
+              <td>+gif [text]</td>
+            </tr>
+                                                              <td>invite</td>
+              <td>Get an invitation to the bot.</td>
+              <td>+inviite</td>
+            </tr>
+                                                              <td>numbers</td>
+              <td>Randomize between numbers.</td>
+              <td>+numbers [min] [max]</td>
+            </tr>
+                                                                          <td>timer</td>
+              <td>A stopwatch that will remind you.</td>
+              <td>+timer [time(s/m/h)]</td>
+            </tr>
+                                                                          <td>userinfo</td>
+              <td>Get info of an user.</td>
+              <td>+userinfo [mention]</td>
+            </tr>
+                                                                          <td>serverinfo</td>
+              <td>Get info of the server.</td>
+              <td>+serverinfo</td>
+            </tr>
+                                                                          <td>announce</td>
+              <td>Make an announcement.</td>
+              <td>+announce [text]</td>
+            </tr>
+                                                                          <td>uptime</td>
+              <td>Get uptime of the bot.</td>
+              <td>+uptime</td>
+            </tr>
+                                                                          <td>setname</td>
+              <td>Set name of the server.</td>
+              <td>+setname [text]</td>
+            </tr>
+                                                                                      <td>listemoji</td>
+              <td>List the custom emojis on the server.</td>
+              <td>+listemoji</td>
+            </tr>
+                                                                                      <td>support</td>
+              <td>Get a link to our support server.</td>
+              <td>+support</td>
+            </tr>
+                                                                                      <td>badge</td>
+              <td>Get badge of an user.</td>
+              <td>+badge [mention]</td>
+            </tr>
+                                                                                      <td>reverse</td>
+              <td>Reverse a text.</td>
+              <td>+reverse [text]</td>
+            </tr>
+                                                                                                  <td>encode</td>
+              <td>Encode text to BASE64.</td>
+              <td>+encode [text]</td>
+            </tr>
+                                                                                                  <td>decode</td>
+              <td>Decode text from BASE64.</td>
+              <td>+decode [base64]</td>
+            </tr>
+                                                                                                  <td>translate</td>
+              <td>Translate text</td>
+              <td>+translate [from-language] [to-language] [text]</td>
+            </tr>            
+            </table>
+            
+                                                  <p><i class="fa fa-user"></i> NSFW Commands:</p>
+          <table id="nsfw">
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+              <th>Usage</th>
+            </tr>
+            <tr>
+              <td>nsfw-gif</td>
+              <td>Get a NSFW GIF.</td>
+              <td>+nsfw-gif</td>
+            </tr>
+            <tr>
+              <td>nsfw-lewdnekos</td>
+              <td>Get a lewd neko.</td>
+              <td>+nsfw-lewdnekos</td>
+            </tr>
+            <tr>
+              <td>nsfw-ass</td>
+              <td>Get an ass photo.</td>
+              <td>+nsfw-ass</td>
+            </tr>
+              <td>nsfw-4k</td>
+              <td>Get an 4K NSFW photo.</td>
+              <td>+nsfw-4k</td>
+            </tr>
+              <td>nsfw-hentai</td>
+              <td>Get a hentai photo.</td>
+              <td>+nsfw-hentai</td>
+            </tr>
+              <td>nsfw-pussy</td>
+              <td>Get a pussy photo.</td>
+              <td>+nsfw-pussy</td>
+            </tr>            
+              <td>nsfw-cosplay</td>
+              <td>Get a Cosplay NSFW photo.</td>
+              <td>+nsfw-cosplay</td>
+            </tr>
+            </table>
+          
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Reporting Bugs</h3>
+          <p>Did you find a bug and want to report that to us? Thank you! We accept any suggestions/requests/bugs on our <a href="NqMA6xC">Discord Server</a>. So come and say hello to us!</p>
+          <hr />
+        </section>
+      </article>
+    </div>
+
+    <footer class="footer">Made with <i class="fa fa-heart"></i> by our developers at NeotiDev.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>
