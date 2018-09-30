@@ -246,20 +246,21 @@ table {
 }
 
 table td, table th {
-  border: 1px solid var(--code-bg-color);
+  border: 1px solid #333333;
   padding: 0.8rem;
   font-weight: 300;
 }
 
 table th {
   text-align: left;
-  background-color: white;
-  border-color: white;
-  border-bottom-color: var(--code-bg-color);
+  background-color: #222222;
+  border-color: #222222;
+  border-bottom-color: #333333;
 }
 
 table td:first-child {
-  background-color: var(--bg-color);
+  background-color: #333333;
+    border-color: #222222;
   font-weight: 600;
 }
 
