@@ -8,4 +8,5 @@
 * [Setting up reports](untitled.md)
 * [Setting up mod-log](setting-up-mod-log.md)
 * [swearFilter module](swearfilter-module.md)
+* [aboutServer](aboutserver.md)
 
