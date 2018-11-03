@@ -10,4 +10,5 @@
 * [Setting up mod-log](setting-up-mod-log.md)
 * [swearFilter module](swearfilter-module.md)
 * [aboutServer](aboutserver.md)
+* [Custom Welcome/Leave Messages](custom-welcome-leave-messages.md)
 

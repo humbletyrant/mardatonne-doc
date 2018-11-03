@@ -30,6 +30,8 @@ Logger is a good module that will log everything happens in your server. For exa
 
 This also can get info from _**`swearFilter`**_ module and logs message that contains bad word.
 
+{% page-ref page="swearfilter-module.md" %}
+
 ### How do i enable it?
 
 Just run the following command:
