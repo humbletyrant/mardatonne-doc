@@ -26,6 +26,10 @@ Logger is a good module that will log everything happens in your server. For exa
 * If someone updates a role
 * If someone uses `+purge` command
 
+### This module works in sync with _**`swearFilter`**_ module.
+
+This also can get info from _**`swearFilter`**_ module and logs message that contains bad word.
+
 ### How do i enable it?
 
 Just run the following command:
