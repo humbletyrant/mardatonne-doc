@@ -24,6 +24,7 @@ Logger is a good module that will log everything happens in your server. For exa
 * If someone creates a role
 * If someone deletes a role
 * If someone updates a role
+* If someone uses `+purge` command
 
 ### How do i enable it?
 
