@@ -1,5 +1,5 @@
 /* css variables*/
-/* Dark theme is made by yagizhn49 @ NeotiDev. Feel free to use! I made this theme to make this look good inside an iFrame */
+/* Dark theme is based on the original css. Edited and modified by yagizhan49 & NeotiDev Team. Please take permission before using. */
 :root {
   --primary-color: #ffffff;
   --primary-color-light: #ffd8a6;
@@ -89,6 +89,31 @@ hr {
 
 .tab__pane.active {
   display: block;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
 
 /* code */
